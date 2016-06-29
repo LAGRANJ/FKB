@@ -3,3 +3,50 @@
 	width: 100%;
 	height: auto;
 }
+
+.logo {
+    display: block;
+    float: left;
+    margin: 10px 0 0 0px;
+    width: 280px;
+}
+
+.learn_more{
+    color:#ffffff;
+    font:normal 16px/16px MyriadProGPBRegular, Tahoma, Geneva, sans-serif;
+    background:url('../img/transp2.png') repeat;
+    border:1px solid #ffffff;
+    border-radius:30px;
+    -moz-border-radius:30px;
+    -webkit-border-radius:30px;
+    padding:16px 26px 16px 36px;
+    display:inline-block;
+}
+
+.learn_more:hover{
+    background:#1493ff;
+    text-decoration:none;
+    border-color:#1493ff;
+}
+
+.learn_more span{
+    background:url('../img/sprites_all.png') no-repeat 0 -7px;
+    height:16px;
+    width:10px;
+    display:inline-block;
+    margin:0 0 0 15px;
+    position:relative;
+    top:3px;
+}
+
+
+.head_contacts{
+    background: url(../img/transp4.png) repeat top;
+    position:absolute;
+    right:40px;
+    color:#ffffff;
+    padding:25px 20px 20px 30px;
+    width:250px;
+    top:40px;
+    height: 220px;
+}
